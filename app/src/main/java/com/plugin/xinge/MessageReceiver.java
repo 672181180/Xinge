@@ -2,7 +2,6 @@ package com.plugin.xinge;
 
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -16,7 +15,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MessageReceiver extends XGPushBaseReceiver {
-    private Intent intent = new Intent("com.qq.xgdemo.activity.UPDATE_LISTVIEW");
+
     public static final String LogTag = "TPushReceiver";
 
     private void show(Context context, String text) {
